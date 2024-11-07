@@ -1,0 +1,53 @@
+h1 {
+    color:green;
+    font-size: 50px;
+}
+
+/*Comentário*/  
+
+/*Classes*/
+
+.paragraph{
+    color:blueviolet
+}
+
+/*Ids*/
+
+#exclusivo {
+    background-color: aquamarine;
+    color:brown;
+    padding: 10px;
+}
+
+/*Ordem das regras*/
+h2{
+    border-bottom: 2px solid red;
+
+}
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+
+/* opacidade no background color*/
+
+.opacidade-bg{
+    color:black;
+    background-color: violet;
+    opacity: 0.2;
+}
+/*A opacidade do fundo sem deixar o texto invisivel so funciona com rgba */
+.opacidade-corrigida{
+    color: black;
+    background-color: rgba(54,225,245,0.2);
+}
+
+.imagem-fundo{
+    background-image: url(../img/4.jpeg);
+    padding: 25px;
+    color: aqua;
+}
